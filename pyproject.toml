@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "keylogger"
 version = "0.1.0"
-description = ""
-authors = ["Blakeinstein <rishi19>"]
+description = "A POC keylogger written in python"
+authors = ["Blakeinstein <rishi1998@gmail.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/Blakeinstein/keylogger"
 
 [tool.poetry.dependencies]
 python = "^3.10"
