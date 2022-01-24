@@ -1,7 +1,5 @@
 # Python Keylogger
 
----
-
 #### DISCLAIMER: THIS PROJECT WAS MADE PURELY FOR LEARNING PURPOSES. I SHALL NOT BE HELD RESPONSIBLE FOR ANYTHING THE PROJECT IS USED FOR. USE AT YOUR OWN RISK.
 
 A simple keylogger proof of concept built with python for the course Information Security(CSL 466). The project uses:
@@ -17,8 +15,6 @@ Features:
 - Requires admin requirements on linux machines.
 
 ## Usage
-
----
 
 ### With Poetry
 
@@ -65,8 +61,6 @@ Features:
    > `python keylogger/main.py`
 
 ### Working
-
----
 
 The project works
 
