@@ -63,3 +63,19 @@ Features:
 6. Run the keylogger with default arguments
    
    > `python keylogger/main.py`
+
+### Working
+
+---
+
+The project works
+
+- On Linux, by reading `/dev/input/input*`, hence the root requirment.
+
+- On Windows, using a keyboard hook available from the user32 lib available in  `user32.dll` via the win32api.
+
+- On MacOS, using a similar platform library called carbon. (Untested)
+
+On every new key stroke, the program simply logs the key, if the key matches the terminate key, the program exits unhooking all created hooks.
+
+
